@@ -6,7 +6,7 @@ This is a quick-reference for commands in the linux shell.
 	* See command 'man' for more details and a complete list of command and command 		functionality.
 
 ##Command		
-	###cat	arg1 (arg2 (...argn))			
+	###cat	(direct/)filename1 ((direct/)filename2 (...(direct/)filenameN))			
 		show document's or docuements' content concatenated
 
 	###cd	cd (..(/../)) (~) (directory-nane)
@@ -35,3 +35,15 @@ This is a quick-reference for commands in the linux shell.
 
 	###pwd	
 		"print working director" shows current directory from root
+
+	###rm	rm (arguments
+
+	###touch	(directory/)filename
+		create a file at the driectory with default being current directory.
+
+##Arguements
+	###-r	recursive
+		rm -r would recusively remove files in a directory
+		
+	###-f	file
+		rm -rf would recursivly remove files(-r) and the folder(f)
