@@ -42,6 +42,10 @@ This is a quick-reference for commands in the linux shell.
 		mv filename destination-directory/new-filename
 		move a folder or file to another directory
 
+### ps
+		ps (args)
+		create a snapshot of the current processes
+
 ### pwd
 		pwd
 		"print working director" shows current directory from root
