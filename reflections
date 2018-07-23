@@ -37,3 +37,17 @@ Commands:
 Cat, cp, cd .., mkdir, pwd, rm -r, 
 Text Editor to Learn:
 emacs, vi NOTE: :wq! command(:), write(w), quit(q), and no warnigs(!)
+
+...
+
+Video 14
+
+'init' is the first PID to run on the system and takes ownership of "un-parented" processes. Nicer processes have lower priorities and higher value 
+in the nice category. The rest of the program flow is rather similar to what is seen in task manager and program flow
+
+Video 15
+
+Signals are how precesses communicate to each other and the kernal and the kernal in turn communicates hardware status to processes.
+
+Commands:
+kill, pkill, signal
