@@ -47,6 +47,7 @@ This is a quick-reference for commands in the linux shell.
 ##Arguements
 	###-r	recursive
 		rm -r would recusively remove files in a directory
+		
 	###-f	file
 		rm -rf would recursivly remove files(-r) and the folder(f)
 

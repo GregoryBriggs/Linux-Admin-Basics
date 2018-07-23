@@ -18,4 +18,22 @@ Video 4
 Many more commands added prompted me to create a 'shortcuts' reference file.
 
 
+Video 5
 
+More commands -with arguements and introduction to the text editors, specifically nano. Also, adding arguments sucha s -r for recursive is a tool
+I intend to only enter if I am 100% sure I'm aware of it's impact, such as when you should not use rm -rf on the root directory, or you will effectively
+remove the entire OS and all the data on it.
+
+Video 6
+
+Use w and who to see logged-in users and what their doing. Note that from :0 is the loca host. More process-viewing programs like top and htop, along with
+their basic funcitnoality were also introduced. 
+
+Video 7
+
+Review of basic command and more additional commands included below.
+
+Commands:
+Cat, cp, cd .., mkdir, pwd, rm -r, 
+Text Editor to Learn:
+emacs, vi NOTE: :wq! command(:), write(w), quit(q), and no warnigs(!)
