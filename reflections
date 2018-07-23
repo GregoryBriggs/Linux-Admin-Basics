@@ -51,3 +51,9 @@ Signals are how precesses communicate to each other and the kernal and the kerna
 
 Commands:
 kill, pkill, signal
+
+Video 16
+
+use htop in conjunciton with signal commands on firefox as an example of functionality. Nice level max priority is the min value of -20. Don't assign
+processes this high of priority.
+

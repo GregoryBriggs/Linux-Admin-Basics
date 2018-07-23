@@ -22,6 +22,10 @@ This is a quick-reference for commands in the linux shell.
 		head filename
 		show first X lines of a document
 	
+### kill 
+		kill (args) <pid>process
+		kills the process (default is with code 15) with arg options.
+	
 ### less	
 		less filename
 		prints file contents with more features than more	
@@ -41,7 +45,14 @@ This is a quick-reference for commands in the linux shell.
 ### mv	
 		mv filename destination-directory/new-filename
 		move a folder or file to another directory
+		
+### nice
+		nice (args) 
 
+### pkill (pgrep)
+		pkill (args) pattern
+		looks up/ signals process(s) based on the name and other attributes
+		
 ### ps
 		ps (args)
 		create a snapshot of the current processes
@@ -49,11 +60,18 @@ This is a quick-reference for commands in the linux shell.
 ### pwd
 		pwd
 		"print working director" shows current directory from root
+		
+### renice
+		renice (args) <pid> process
+		the higher the arg assigned the lower the priority. The top priority is -20
 
 ### rm	
 		rm (arguments) directory/filename
 		remove an empty directory or a filename in a directory.
 
+### signal
+		a suite of commands to be operate on processes 
+		
 ### touch	
 		touch (directory/)filename
 		create a file at the driectory with default being current directory.
@@ -74,7 +92,8 @@ This is a quick-reference for commands in the linux shell.
 ## Programs
 ### htop	
 		similar to task manager and top but has different functionality
-		use the f# to get more options on what to do with running processes. 
+		use the f# to get more options on what to do with running processes. The options associated
+		with htop are already linux command line commands but integrated into a GUI.
 
 
 ### top 	
