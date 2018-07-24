@@ -116,14 +116,29 @@ This is a quick-reference for commands in the linux shell.
 	system programs live here. Very useful.
 	really handy to see programs
 	
+### /boot 
+	kernal, bootloader (grub), and other kernal files.
+
+### /dev 
+	devices such as hard disk. 'sd' is the disk
+	
 ### /etc
 	all program configurations exist in here unless someone messed up and didn't coply to the 
 
 ### /home 
 	this is where users live
 
+### /lib
+	32 bit programs
+
+### /lib64
+	64 bit programs
+
+### /opt
+	link from bin to opt as in optional files if you are making a program. 
+	
 ### /proc
-	among many other things, this directory 
+	among many other things, this directory gives information on dynamically-allocated files
 	
 ### /root
 	where root lives
@@ -134,3 +149,15 @@ This is a quick-reference for commands in the linux shell.
 ### /tmp
 	temporary files.
 
+### /usr
+	subdivided list of non-essential files and commands
+
+#### /user/bin
+	lots of non-essential binaries, such as header files, shared libraries, own software, system management commands (admin)
+	
+#### /usr/share
+	things common to multiple systems.
+
+### /var
+#### /var/log
+	where the logs are stored

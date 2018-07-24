@@ -77,3 +77,8 @@ Checks while troubleshooting:
 2) check the configuraiton in /etc/ssh/
 For admin purposes, if configuration is not in the /etc/ssh/ directory, you make people mad. So, place configurations in that folder. Check out 'man hier' for a
 description on more directories.
+
+Video 20
+
+bin is the directory where binaries shipped with OS go. Linux keeps files elsewhere and links to bin. For etc on linux, they jam everything in /etc. Unix (as in 
+Free DSB), port's tree and binaries keep configs separate from the base. Each file has stringent functions that should only 
