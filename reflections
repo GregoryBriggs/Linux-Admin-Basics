@@ -57,3 +57,8 @@ Video 16
 use htop in conjunciton with signal commands on firefox as an example of functionality. Nice level max priority is the min value of -20. Don't assign
 processes this high of priority.
 
+Video 17
+
+learning about the proc file system. Each file is created as they're read and created on the fly. cmd is the current command being executed, cmdline is the 
+command line of the precess, cwd shows link where the process is operating from, environ is the environment/path variables, map is mem map location and libraries used,
+statm for memory. This is mostly used to be parsed with other programs, like htop, top, etc. Also, the stack trace can be shown using strace!

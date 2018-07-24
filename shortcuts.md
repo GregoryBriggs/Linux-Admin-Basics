@@ -17,6 +17,10 @@ This is a quick-reference for commands in the linux shell.
 ### cp	
 		cp filename new-file-destination
 		copy file from one place to another
+		
+### df 
+		df (args) (filename)
+		by default, lists all info about the file system on which each filename resides on. note -h for human-readable
  
 ### head	
 		head filename
@@ -71,6 +75,10 @@ This is a quick-reference for commands in the linux shell.
 
 ### signal
 		a suite of commands to be operate on processes 
+		
+### strace 
+		stack [many ards and options. Look it up man]
+		used to run a command until it exits and much, much more for debugging/admin/diagnostics
 		
 ### touch	
 		touch (directory/)filename
