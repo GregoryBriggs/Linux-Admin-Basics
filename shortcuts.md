@@ -25,6 +25,9 @@ This is a quick-reference for commands in the linux shell.
 ### head	
 		head filename
 		show first X lines of a document
+		
+### hier
+		a list of standard linux directories and a brief description of their purposes
 	
 ### kill 
 		kill (args) <pid>process
@@ -106,4 +109,28 @@ This is a quick-reference for commands in the linux shell.
 
 ### top 	
 		sorts activitis like task manager. Can see process ID (PID) and use that info to 
-		netstat -tupln is a command that shows network activity (run as root to get more 				info).
+		netstat -tupln is a command that shows network activity (run as root to get more info).
+		
+## Directories
+### /bin
+	system programs live here. Very useful.
+	really handy to see programs
+	
+### /etc
+	all program configurations exist in here unless someone messed up and didn't coply to the 
+
+### /home 
+	this is where users live
+
+### /proc
+	among many other things, this directory 
+	
+### /root
+	where root lives
+	
+### /sbin
+	system programs used for booting not often used by users.
+	
+### /tmp
+	temporary files.
+
