@@ -36,6 +36,10 @@ This is a quick-reference for commands in the linux shell.
 ### less	
 		less filename
 		prints file contents with more features than more	
+		
+### ln
+		ln (args) filename
+		can make hard or symbolic links to a file or directory.
 	
 ### ls 	
 		ls (directory-name)

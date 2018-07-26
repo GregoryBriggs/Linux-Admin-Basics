@@ -82,3 +82,39 @@ Video 20
 
 bin is the directory where binaries shipped with OS go. Linux keeps files elsewhere and links to bin. For etc on linux, they jam everything in /etc. Unix (as in 
 Free DSB), port's tree and binaries keep configs separate from the base. Each file has stringent functions that should only 
+
+Video 21
+
+This video went over the files and file types
+file types: "-" text file. "b" block. "d" directories. "l" links to files. "c" character device files (like mouse or keyboards). Also, named pipes and sockets 
+Links are symbolic links to to a file. Sockets open comm channels (like 80 or 8080) and acts as a private file. The pipes file are not often used. There are seven file types:
+directories character block normal "symbolic links" namedpipes sockets(<-modern applications)
+
+Video 22
+
+Cron tables! They are used for periodic updats to the minute hour day month weekday command. For each time variable, a "," separates values within the time frame, a "/" is 
+equivalent to "frequency within a range", and "-" will give a continuous range. There's also root crontab permissions for specific user permission with -e -u username for 
+-e edit -u user username greg
+Misc:
+Link to vim shortcuts.
+https://mislav.net/2011/12/vim-revisited/
+crontabs live at:
+/var/spool/cron/crontabs and there is one file per user.
+/etc/cron.d/ for packages to install package-specific crontabs
+/etc/crontab for the system crontab and has an extra field for users in addition to the others listed above.
+common arguments or options are -e to edit and -l to list.
+
+Video 23
+
+Get that info! Common procedures for hunting down information and solutions to problems, as well as understanding what the answer is.
+Link to the video to get the resources listed. https://www.youtube.com/watch?v=kXWZz8RcW4o&list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK&index=23
+In addition, for Linux users, check out the man pages and the different page numbers (1-8). 
+
+Video 24
+
+Networking for System Admins: Michael Lucas. Helpful foundation.
+
+Vdieo 25
+
+Tmux allows sharing sessions with socket files, as a collaboration suite. SSH into **** SEE 
+https://www.udemy.com/hands-on-linux-self-hosted-wordpress-for-linux-beginners/learn/v4/t/lecture/4896920?start=0 **** for info on creating host.
